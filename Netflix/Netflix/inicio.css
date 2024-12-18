@@ -1,0 +1,180 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+.nav{
+display: flex; 
+justify-content: space-between; 
+align-items: center; 
+background: linear-gradient(to bottom, black, rgba(0, 0, 0, 0)); 
+position: fixed; 
+top: 0;
+left: 0;
+width: 100%;
+z-index: 10;
+}
+
+.seccion{
+display: flex;
+align-items: center;
+padding: 10px;
+}
+
+.seccion a{
+text-decoration: none;
+color: white;
+display: flex;
+justify-content: space-between;
+padding: 7px;
+font-family:Arial, Helvetica, sans-serif;
+font-weight: 100;
+font-size: 15px;
+}
+
+.seccion a:hover{
+color:  rgba(255, 255, 255, 0.566) ;;
+}
+
+.seccion1{
+display: flex;
+justify-content: flex-end;
+justify-items: center;
+text-align: center;
+align-items: center;
+align-content: center;
+padding: 5px;
+}
+
+#campana{
+padding: 7px;
+}
+
+#perfil{
+padding-right: 10px;
+border-radius: 2px;
+}
+
+.video{
+display: flex;
+height: 70vh;
+position: absolute;
+left: 0;
+right: 0;
+width: 100%;
+overflow: hidden;
+
+}
+
+video{
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.textovideo{
+position: absolute;
+bottom: 270px;  
+left: 20px;    
+color: white;
+padding: 10px;
+max-width: 80%;
+z-index: 10;
+}
+
+.textovideo h2 {
+margin: 0;
+font-size: 2rem;
+}
+
+.textovideo p {
+margin: 5px 0;
+font-size: 1.2rem;
+}
+
+.textovideo button {
+padding: 10px 20px;
+margin: 8px;
+font-size: 1rem;
+background-color: #ffffff; 
+color: rgb(0, 0, 0);
+border: none;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+.textovideo button:hover{
+    background-color: #ffffffab; 
+}
+
+section{
+background-color: black;
+display: flex; 
+flex-direction: row;
+justify-content: space-between; 
+align-items: center;
+
+}
+
+.galeria h4 {
+margin-top: 605px;
+width: 100%;
+color: #ffffffe3;
+font-size: 16px;
+margin-bottom: 20px;
+margin-left: 20px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 100;
+}
+
+.peliculas{
+background-color: black;
+align-content: center;
+align-items: center;
+object-fit: cover;
+margin-top: 1px;
+margin-left: 15px;
+}
+
+.peliculas:hover{
+transform: scale(1.1);
+cursor: pointer;
+}
+
+
+.galeria2 h4 {
+    margin-top: 25px;
+    width: 100%;
+    color: #ffffffe3;
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    }
+
+.footer{
+background-color: rgb(0, 0, 0);
+}
+
+.footer img{
+margin-top: 30px;
+margin: 20px;
+}
+
+.hipervinculos{
+margin-top: 20px;
+margin-left: 20px;
+display: flex;
+flex-direction: column;
+gap: 5px;
+text-decoration: none;
+color:#ffffffab;
+background-color: black;
+}
+
+.hipervinculos:hover{
+cursor: pointer;
+color: #ffffff;
+}
